@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Sacramento&family=Sofia&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Roboto+Condensed:wght@300;700&family=Sacramento&family=Sofia&display=swap"
+    rel="stylesheet">       
     <title>La Plata</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
     <section class="header-section">
     <nav>
         <ul>
-        <li>HISTORY</li>
-        <li>FUN FACTS</li>
-        <li>OH THE TREES!</li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#cool-fact">Cool Fact</a></li>
+        <li><a href="#tree-anchor">Oh the trees!</a></li>
     </ul>
     </nav>
     <div class="title">
@@ -30,7 +31,7 @@
     </section>
     <section class="containers">
 
-        <div class="container">
+        <div class="container" id="history">
             <div class="row row-cols-2">
                 <div class="col text-column">
                     <div class="arrow">
@@ -38,9 +39,9 @@
                         <img class="arrow-icon" src="./Images/arrow.png" alt="">
                     </div>
                     <p>
-                        La Plata was designed and planned more than 140 years ago to be the capital of the province of Buenos Aires.
+                        La Plata was designed and planned more than 140 years ago to be the capital of the province of <strong>Buenos Aires</strong>.
                         Located on the banks of the river that gave it its name, represents a
-                        model of urban planning for the entire world. Better known as the "city of diagonals", it assures newcomers that there
+                        model of urban planning for the entire world. Better known as the <strong>"city of diagonals"</strong>, it assures newcomers that there
                         is no way to get lost among its streets; surprises the visitor with its geometric layout, holistic architecture and
                         European style.
                     </p>
@@ -51,7 +52,7 @@
             </div>
         </div>
         
-        <div class="container">
+        <div class="container" id="cool-fact">
             <div class="row row-cols-2">
                 <div class="col">
                     
@@ -60,30 +61,41 @@
                     <div class="col text-column">
                         <div class="arrow">
                             <img src="./Images/arrow-dark.png" alt="" class="arrow-icon">
-                          <h3 class="fun-facts">Fun Facts</h3>
+                          <h3 class="cool-fact">Cool Fact</h3>
                         </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="strong-fact">
+                        La Plata is one of a few cities in the world which has been <strong>planned before building</strong>. The city was
+                        designed from its origin with aesthetic and landscape criteria of the European Baroque Urbanism of the 17th
+                        century, and based on environmental and functional foundations typical of Hygieneism of the 19th century.
+                        Its rationalist layout in a grid, with <strong>diagonals and squares every 6 blocks</strong> - at the intersection of
+                        avenues -,
+                        responded to criteria of order, organization and balance between the built space and the green space in pursuit of an
+                        equitable distribution of activities and circulation.
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container" id="tree-anchor">
             <div class="row row-cols-2">
                 <div class="col text-column">
                     <div class="arrow">
                         <h3 class="trees">Oh the trees!</h3>
                         <img class="arrow-icon" src="./Images/arrow-fucsia.png" alt="">
                     </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="strong-tree">
+                    The wealth of trees in La Plata offers an infinity of unmissable postcards, which can be found in streets, avenues,
+                    parks and squares.
+                    <br>
+                    More than a <strong>hundred species of trees</strong> can be found on sidewalks and green spaces. Especially in spring and summer, the
+                    flowering reflects a wide variety of colors, shapes and perfumes; representing one of the most prominent local tourist
+                    attractions. Like the <strong>Jacarandá</strong> in the photo, which dyes the city purple every November.
+                    <br>
+                    The forestry heritage was so important from the beginning that when the city was designed many details were taken into
+                    account, among them, planting a particular tree species in <strong>avenues and diagonals</strong> to identify them.
+                    Currently in the Urban Area there are some 106 taxonomic categories
+                    -species, genera, varieties- and around 80 thousand specimens; many stand out for their quantity, and others for their
+                    striking aesthetic features.
                     </p>
                 </div>
                 <div class="col">
