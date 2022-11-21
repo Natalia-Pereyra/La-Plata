@@ -138,3 +138,54 @@ strong {
 .modal span {
     font-size: 35px;
 }
+
+footer {
+    background-color: #8B4681;
+}
+footer h4 {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    height: fit-content;
+    margin: 0;
+    padding: 10px;
+}
+footer a {
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer a:hover {
+    color: #332A2B;
+    text-decoration: none;
+}
+@media (max-width: 900px) {
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .arrow-icon {
+        display: none;
+    }
+    .arrow {
+        padding-top: 0;
+    }
+    nav ul {
+        padding: 20px;
+    }
+    li {
+        font-size: 12px;
+    }
+}
+@media (max-width: 500px) {
+.row {
+    flex-direction: column-reverse;
+}
+.col {
+    max-width: 100%;
+}
+}
