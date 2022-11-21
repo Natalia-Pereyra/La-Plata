@@ -75,6 +75,10 @@ h2 {
 }
 .img-container {
     border-radius: 25%;
+    cursor: pointer;
+}
+.img-container:hover {
+    filter: sepia(100%);
 }
 h3 {
     font-family: 'Comforter Brush', cursive;
@@ -117,4 +121,20 @@ strong {
 }
 .strong-fact strong {
     color: var(--dark-purple);
+}
+
+/* Modal */
+
+.modal {
+    background-color: rgba(255, 253, 253, 0.8);
+    padding: 30px;
+}
+.modal img {
+    max-height: 600px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+.modal span {
+    font-size: 35px;
 }
